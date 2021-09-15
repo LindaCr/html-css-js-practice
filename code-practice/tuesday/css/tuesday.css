@@ -1,0 +1,21 @@
+#bg{
+    background-color:black;
+}
+h1{
+    color:rgb(144, 46, 236);
+    font-weight:bold;
+}
+h2{
+    color:cyan;
+    font-style:italic;
+}
+thead{
+    color:rgb(206, 41, 247);
+    font-weight:bold;
+}
+tbody{
+    color:rgb(41, 189, 235);
+}
+.text{
+    color:white;
+}
