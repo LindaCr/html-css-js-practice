@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="css/thursday.css" reference="stylesheet">
+    <script src="js/thursday.js"></script>
+</head>
+<body>
+    <div>
+        <input id="name" type="text" placeholder="Name of Animal"> |
+        <input id="sound" type="text" placeholder="Sound Animal Makes"> |
+        <input id="numLegs" type="number" value="2"> |
+        <button class="btn btn-secondary" onclick="add()">Add</button> |||
+        <button class="btn btn-secondary" onclick="remove()">Delete</button>
+    </div>
+    <hr> 
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Animal</th>
+                <th>Sound</th>
+                <th># of Legs</th>
+            </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+    </table>
+</body>
+</html>
